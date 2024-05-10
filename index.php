@@ -9,31 +9,45 @@
     <title>UNITY GIVING</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        main{
+            background-image: url("images/background.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color:teal">
             <div class="container-fluid py-3">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo.jpeg" alt="" width="100" height="80" class="d-inline-block align-text-top"> <h1>Unity Giving</h1>
+                    <img src="images/logo.png" alt="" width="100" height="80" class="d-inline-block align-text-top"> <h1>Unity Giving</h1>
                 </a>
             </div>
     </header>
     <main>
-        <div class="container-fluid bg-primary">
-            <div class="card text-bg-dark">
+        <div class="container-fluid">
+            <div class="card text-bg-dark m-5">
                 <img src="images/background.jpeg" class="card-img" alt="..." width="400" height="350">
                 <div class="card-img-overlay">
-                    <h1 style="color: rgb(17, 107, 125);">Welcome to our platform</h1>
-                    <p style="color: dark;"><h3>Join our community of compassionate individuals dedicated to ensuring transparent donations. With our platform, you can effortlessly manage your donations, support causes you care about, and track your impact in real-time.Together, we can create
+                    <h1 style="">Welcome to our platform</h1>
+                    <p style=""><h3>Join our community of compassionate individuals dedicated to ensuring transparent donations. With our platform, you can effortlessly manage your donations, support causes you care about, and track your impact in real-time.Together, we can create
                         positive change and leave a lasting impact on the world.</h3></p>                    
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid bg-primary ">
+        <div class="container-fluid ">
             <div class="row ">
                 <div class="col-sm-6 mb-3 mb-sm-0 ">
                     <div class="card ">
