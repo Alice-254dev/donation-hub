@@ -9,11 +9,25 @@
     <title>UNITY GIVING</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        main{
+            background-image: url("images/background.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:teal">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color:teal">
             <div class="container-fluid py-3">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="100" height="80" class="d-inline-block align-text-top"> <h1>Unity Giving</h1>
