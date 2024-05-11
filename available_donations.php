@@ -46,7 +46,7 @@ session_start();
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid bg-primary">
             <a class="navbar-brand" href="#">
-                    <img src="images/logo.jpeg" alt="" width="100" height="80" class="d-inline-block align-text-top"> <h1>Unity Giving</h1>
+                    <img src="images/logo.png" alt="" width="100" height="80" class="d-inline-block align-text-top"> <h1>Unity Giving</h1>
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
